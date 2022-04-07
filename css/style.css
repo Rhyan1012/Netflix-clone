@@ -2,11 +2,19 @@
   margin: 0;
   padding: 0;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.container-da-img-1 {
+  /*body*/
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/fundonetflixx.jpg");
+  background-size: cover;
 }
 #menu {
   display: flex;
-  background: rgba(15, 15, 15, 0.541);
+  background: rgba(15, 15, 15, 0.363);
   justify-content: space-between;
 }
 #menu a {
@@ -54,13 +62,6 @@
   padding: 15px;
   left: 25px;
 }
-#container-da-imagem {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/0bd3a69d-6790-4edc-9818-1c8c558946c2/64643bdf-d283-4d45-b0e9-2b9255667e2b/BR-pt-20220329-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
-  background-size: cover;
-}
 #container-da-imagem option {
   background-color: grey;
 }
@@ -69,10 +70,40 @@
   margin-left: 40px;
   size: 15px;
 }
-.main-text{
+.main-text {
   text-align: center;
   margin-top: 140px;
 }
-.title1{
+.title1 {
   font-size: 25px;
+}
+.main-text h2 {
+  margin-top: 8px;
+  font-size: 1.69rem;
+  font-weight: 500;
+}
+.main-text h3 {
+  margin-top: 25px;
+  font-weight: 550;
+}
+.register {
+  align-items: center;
+  display: flex;
+  margin-left: 350px;
+  margin-top: 16px;
+}
+.register button {
+  background: #e50914;
+  width: 185px;
+
+  height: 66px;
+  font-size: 25px;
+}
+.register input {
+  height: 62px;
+  width: 470px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding-left: 8px;
 }
